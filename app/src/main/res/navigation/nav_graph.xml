@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="Numeric Calculator"
+    app:startDestination="@id/numericFragment">
+
+    <fragment
+        android:id="@+id/numericFragment"
+        android:name="com.kamrulhasan.calculator.NumericFragment"
+        android:label="fragment_numeric"
+        tools:layout="@layout/fragment_numeric" />
+    <fragment
+        android:id="@+id/ageFragment"
+        android:name="com.kamrulhasan.calculator.AgeFragment"
+        android:label="Age Calculation"
+        tools:layout="@layout/fragment_age" />
+    <fragment
+        android:id="@+id/temperatureFragment"
+        android:name="com.kamrulhasan.calculator.TemperatureFragment"
+        android:label="Temperature Converter"
+        tools:layout="@layout/fragment_temperature" />
+</navigation>

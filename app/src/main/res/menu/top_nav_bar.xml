@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_numeric"
+        android:icon="@drawable/ic_baseline_123_24"
+        android:title="@string/numeric" />
+    <item
+        android:id="@+id/menu_item_age"
+        android:icon="@drawable/ic_baseline_cake_24"
+        android:title="@string/age" />
+    <item
+        android:id="@+id/menu_item_temperature"
+        android:icon="@drawable/ic_baseline_linear_scale_24"
+        android:title="@string/temperature" />
+</menu>
